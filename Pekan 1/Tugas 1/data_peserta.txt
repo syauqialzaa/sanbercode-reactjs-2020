@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama     : Alza Syauqi Billah Ghifari
+2. Email    : -
+3. OS       : WSL Ubuntu 22.04
+4. Github   : https://github.com/syauqialzaa
+5. Telegram : -
