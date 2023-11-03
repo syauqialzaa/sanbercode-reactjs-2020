@@ -1,0 +1,47 @@
+<head>
+  <title>Form Registrasi</title>
+</head>
+<body>
+  <h1>Registrasi Akun Baru!</h1>
+  <h3>Isilah Form Di Bawah Ini.</h3>
+  
+  <form>
+    <label for="fname">First Name :</label><br><br>
+    <input type="text" id="fname" name="fname">
+    <br><br>
+
+    <label for="lname">Last Name :</label><br><br>
+    <input type="text" id="lname" name="lname">
+    <br><br>
+
+    <label for="gender">Gender :</label><br><br>
+    <input type="radio" id="gender" name="gender" value="Male">Male
+    <input type="radio" id="gender" name="gender" value="Female">Female
+    <input type="radio" id="gender" name="gender" value="Other">Other
+    <br><br>
+  
+    <label for="nat">Nationality :</label><br><br>
+    <select name="nat" id="nat">
+      <option value="indonesia">Indonesia</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="thailand">Thailand</option>
+      <option value="vietnam">Vietnam</option>
+    </select>
+    <br><br>
+
+    <label for="learn">Sedang Fokus Belajar :</label><br><br>
+    <select name="learn" id="learn">
+      <option value="golang">Golang</option>
+      <option value="reactjs">ReactJS</option>
+      <option value="ruby">Ruby</option>
+    </select>
+    <br><br>
+
+    <label for="lang">Language Spoken :</label><br><br>
+    <input type="checkbox" id="lang" name="lang" value="Bahasa">Bahasa
+    <input type="checkbox" id="lang" name="lang" value="English">English
+    <input type="checkbox" id="lang" name="lang" value="Other">Other
+  </form>
+  <label for="desc">Deskripsi Diri Saya :</label><br><br>
+  <textarea name="desc" id="" cols="60" rows="10"></textarea>
+</body>
