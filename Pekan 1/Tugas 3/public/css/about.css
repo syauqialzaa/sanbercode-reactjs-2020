@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid grey;
+  padding: 20px;
+  margin: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.button {
+  margin: 40px 0px 0px 10px;
+}
+
+.text-button {
+  text-decoration: none;
+}
